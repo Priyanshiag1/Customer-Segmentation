@@ -1,12 +1,12 @@
-*Customer Segmentation using K-Means Clustering*
+**Customer Segmentation using K-Means Clustering**
 This project applies unsupervised learning to perform customer segmentation based on spending habits. By grouping similar customers, businesses can create targeted marketing strategies and better understand consumer behavior.
 
-*Files Included*
+**Files Included**
 Customer Segmentation.ipynb – Jupyter notebook containing the full project implementation.
 Mall_Customers.csv – Dataset used (you may need to upload this if not already in the repo).
 README.md – You're here!
 
-*Project Overview*
+**Project Overview**
 This project uses the K-Means clustering algorithm to divide customers into distinct segments based on:
 Annual Income
 Spending Score
@@ -16,7 +16,7 @@ High income & high spenders
 Low income & high spenders
 Average spenders, etc.
 
-*Tech Stack*
+**Tech Stack**
 Python
 Pandas
 NumPy
@@ -24,7 +24,7 @@ Matplotlib
 Seaborn
 Scikit-learn
 
-*Steps Covered*
+**Steps Covered**
 Importing the dataset
 EDA (Exploratory Data Analysis)
 Summary statistics
@@ -33,12 +33,12 @@ Choosing the optimal number of clusters using WCSS & Elbow Method
 Applying K-Means clustering
 Visualizing the clusters
 
-*Output*
+**Output**
 Elbow curve to choose number of clusters
 2D visualization of clusters and centroids
 Clustered customer groups (color-coded)
 
-*Dataset Information*
+**Dataset Information**
 The dataset contains the following columns:
 CustomerID
 Gender

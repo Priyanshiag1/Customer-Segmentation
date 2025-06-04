@@ -1,4 +1,4 @@
-**Customer Segmentation using K-Means Clustering**
+**Customer Segmentation using K-Means and Aggolmerative Hierarchical Clustering**
 This project applies unsupervised learning to perform customer segmentation based on spending habits. By grouping similar customers, businesses can create targeted marketing strategies and better understand consumer behavior.
 
 **Files Included**
@@ -9,7 +9,7 @@ Mall_Customers.csv – Dataset used (you may need to upload this if not already 
 README.md – You're here!
 
 **Project Overview**
-This project uses the K-Means clustering algorithm to divide customers into distinct segments based on:
+This project uses the K-Means and Aggolmerative Hierarchical clustering algorithm to divide customers into distinct segments based on:
 
 Annual Income,Spending Score
 
@@ -29,21 +29,45 @@ High income & high spenders,Low income & high spenders,Average spenders, etc.
 
 6)Scikit-learn
 
+7)Scipy (for hierarchical clustering)
+
 **Steps Covered**
 1)Importing the dataset
+
 2)EDA (Exploratory Data Analysis)
+
 3)Summary statistics
+
 4)Visualization using scatter plots & histograms
-5)Choosing the optimal number of clusters using WCSS & Elbow Method
-6)Applying K-Means clustering
-7)Visualizing the clusters
+
+5)Choosing optimal clusters:
+
+For K-Means: WCSS & Elbow Method
+
+For Hierarchical Clustering: Dendrogram analysis
+
+Applying clustering:
+
+K-Means Clustering
+
+Agglomerative Hierarchical Clustering
+
+Visualizing the resulting clusters:
+
+2D scatter plots
+
+Dendrogram (for Hierarchical)
+
 
 **Output**
-1)Elbow curve to choose number of clusters
+1)Elbow Curve (for K-Means) to determine optimal k
 
-2)2D visualization of clusters and centroids
+2)Dendrogram (for Hierarchical Clustering) to visualize cluster hierarchy
 
-3)Clustered customer groups (color-coded)
+3)2D visualization of customer clusters
+
+4)Clustered groups with meaningful color-coding
+
 
 **Dataset Information**
 The dataset contains the following columns:
@@ -51,7 +75,11 @@ CustomerID,Gender,Age,Annual Income (k$),Spending Score (1–100)
 
 **Learning Objectives**
 Understand and apply unsupervised learning
-Gain experience with clustering algorithms
-Perform customer behavior analysis
-Use the elbow method to choose k clusters
+
+Compare K-Means and Hierarchical Clustering methods
+
+Visualize and evaluate cluster quality
+
+Perform real-world customer segmentation analysis
+
 
